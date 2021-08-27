@@ -3,7 +3,7 @@ const express = require("express")
 const routes = require("./routes/routes") 
 const app = express()
 
- app.listen(process.env.PORT || 80); 
+ app.listen(process.env.PORT || 8000 ); 
 
  app.use(express.json())
  app.use(
