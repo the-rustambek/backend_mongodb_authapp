@@ -1,5 +1,5 @@
 const homeRoute =  require("./homeRoute")
 
-module.exports = function (app){
+module.exports = async function (app){
     app.use(homeRoute.path, homeRoute.router)
 }
